@@ -1,5 +1,7 @@
-#include "stdafx.h"
 #include "WorkSocketThread.h"
+#include <iostream>
+#include <string>
+using namespace std;
 
 WorkSocketThread::WorkSocketThread(CSocket* s, CTelefonbuch* tb, bool* l)
 {

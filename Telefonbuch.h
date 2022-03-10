@@ -1,5 +1,10 @@
 #pragma once
+#include <iostream>
+#include <string>
+#include <list>
+using namespace std;
 class CEintrag;
+
 
 class CTelefonbuch
 {

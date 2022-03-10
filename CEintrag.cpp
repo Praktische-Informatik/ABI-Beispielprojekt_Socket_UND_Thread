@@ -1,6 +1,6 @@
-#include "StdAfx.h"
 #include "CEintrag.h"
-
+#include <string>
+using namespace std;
 
 CEintrag::CEintrag(string n_init, string nr_init)
 {

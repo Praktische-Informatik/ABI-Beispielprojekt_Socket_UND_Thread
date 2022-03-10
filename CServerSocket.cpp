@@ -1,5 +1,5 @@
-#include "stdafx.h"
 #include "CServerSocket.hpp"
+#include <iostream>
 
 CServerSocket::CServerSocket(int port)
 {

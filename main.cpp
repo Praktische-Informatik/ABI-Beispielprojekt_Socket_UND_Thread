@@ -1,9 +1,8 @@
-// 18_Telefonbuchserver (ABI 2007 A).cpp : Definiert den Einstiegspunkt für die Konsolenanwendung.
-//
 
-#include "stdafx.h"
 #include "TelefonbuchServer.h"
 #include "TelefonClient.h"
+#include <iostream>
+using namespace std;
 
 #define SERVERPORT 5566
 #define SERVERIP "127.0.0.1"

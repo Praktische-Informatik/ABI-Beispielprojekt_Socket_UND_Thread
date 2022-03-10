@@ -1,6 +1,9 @@
-#include "StdAfx.h"
+
 #include "Telefonbuch.h"
 #include "CEintrag.h"
+#include <iostream>
+#include <string>
+using namespace std;
 
 CTelefonbuch::CTelefonbuch()
 {

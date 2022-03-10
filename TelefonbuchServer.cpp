@@ -1,5 +1,8 @@
-#include "StdAfx.h"
+
 #include "TelefonbuchServer.h"
+#include <iostream>
+#include <string>
+using namespace std;
 
 CTelefonbuchServer::CTelefonbuchServer(int port)
 {

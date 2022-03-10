@@ -1,6 +1,4 @@
-#include "stdafx.h"
 #include "CSocket.hpp"
-
 
 CSocket::CSocket(std::string host, int port)
 {

@@ -1,6 +1,9 @@
-#include "stdafx.h"
+
 #include "CSocket.hpp"
 #include "TelefonClient.h"
+#include <iostream>
+#include <string>
+using namespace std;
 
 bool TelefonClient::menu(){
 	

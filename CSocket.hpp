@@ -1,5 +1,8 @@
-//#pragma comment(lib,"ws2_32.lib")
 #pragma once
+#include <Ws2tcpip.h>
+//#pragma comment(lib,"ws2_32.lib")
+#include <string>
+
 class CSocket
 {
 private:
