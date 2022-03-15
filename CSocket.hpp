@@ -1,6 +1,6 @@
 #pragma once
 #include <Ws2tcpip.h>
-//#pragma comment(lib,"ws2_32.lib")
+//#pragma comment(lib,"ws2_32.lib") // kann manchmal Helfen 
 #include <string>
 
 class CSocket
