@@ -17,7 +17,7 @@ CTelefonbuchServer::~CTelefonbuchServer(void)
 	delete telefonbuch;
 }
 
-void CTelefonbuchServer::run()
+void CTelefonbuchServer::start()
 {
 	lock = false;				//Zugriff erlaubt !!
 

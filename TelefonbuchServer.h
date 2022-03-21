@@ -12,7 +12,7 @@ private:
 	bool lock; 
 
 public:
-	void run();
+	void start();
 	CTelefonbuch* getTelefonbuch();
 	CTelefonbuchServer(int port);
 	~CTelefonbuchServer();
