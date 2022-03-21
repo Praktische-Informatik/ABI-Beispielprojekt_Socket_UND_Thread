@@ -101,7 +101,8 @@
     <ClCompile Include="WorkSocketThread.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
+    <None Include="Klassendiagramm CLIENT Seite.cd" />
+    <None Include="Klassendiagramm SERVER Seite.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
