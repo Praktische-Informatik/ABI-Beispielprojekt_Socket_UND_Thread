@@ -43,5 +43,7 @@ void client()
 	
 	if (tc.abmelden() == false)
 		cout << "Nicht abgemeldet!" << endl;
+	else
+		cout << "Client abgemeldet!" << endl;
 
 }
