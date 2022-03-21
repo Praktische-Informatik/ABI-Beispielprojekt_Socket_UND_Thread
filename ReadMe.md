@@ -15,7 +15,7 @@ Beispiel-Projekt zu Sockets und Threads
 >> Viel Erfolg beim Debuggen!<br>
 
 Klassendiagramm Server Seite
-![UML Klassendiagramm SERVER Seite](https://user-images.githubusercontent.com/78038701/159291483-acde77ce-3d36-432c-a84e-513b4035112a.png)
+![Klassendiagramm SERVER Seite](https://user-images.githubusercontent.com/78038701/159348801-2479354e-037c-4907-9cdb-785c74c94c10.png)
 
 
 Klassendiagramm Client Seite
