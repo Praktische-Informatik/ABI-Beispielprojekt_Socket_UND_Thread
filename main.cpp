@@ -28,10 +28,9 @@ int main()
 
 void server()
 {
-	CTelefonbuchServer tbServer(SERVERPORT);
+	CTelefonbuchServer tbServer;
 	cout << "------------SERVER--------------" << endl;
-	tbServer.start();
-
+	tbServer.startServer(SERVERPORT); // (1)  TelefonServer wird gestartet
 }
 
 void client()

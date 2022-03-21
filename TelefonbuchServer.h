@@ -7,13 +7,13 @@ class CTelefonbuchServer
 {
 private:
 	CServerSocket *serverSocket;
-	WorkSocketThread* work_sock_Threads[3];
+	WorkSocketThread* wsThread[3];
 	CTelefonbuch* telefonbuch;
 	bool lock; 
 
 public:
-	void start();
+	void startServer(int port);
 	CTelefonbuch* getTelefonbuch();
-	CTelefonbuchServer(int port);
+	CTelefonbuchServer();
 	~CTelefonbuchServer();
 };

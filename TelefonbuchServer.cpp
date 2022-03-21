@@ -4,9 +4,9 @@
 #include <string>
 using namespace std;
 
-CTelefonbuchServer::CTelefonbuchServer(int port)
+CTelefonbuchServer::CTelefonbuchServer()
 {
-	serverSocket = new CServerSocket(port);
+	serverSocket = nullptr;
 	telefonbuch = new CTelefonbuch(10);
 }
 
@@ -17,8 +17,9 @@ CTelefonbuchServer::~CTelefonbuchServer(void)
 	delete telefonbuch;
 }
 
-void CTelefonbuchServer::start()
+void CTelefonbuchServer::startServer(int port)
 {
+	serverSocket = new CServerSocket(port);
 	lock = false;				//Zugriff erlaubt !!
 
 	for (int j = 0; j < 3; j++)
@@ -28,16 +29,16 @@ void CTelefonbuchServer::start()
 		workSocket = serverSocket->accept();  //Blockierende Funktion
 		cout << "Verbindung" << "zum " << j + 1 << ". Client akzeptiert... " << endl;
 		// 
-		work_sock_Threads[j] = new WorkSocketThread(workSocket, telefonbuch, &lock);
-		work_sock_Threads[j]->start();
+		wsThread[j] = new WorkSocketThread(workSocket, telefonbuch, &lock);
+		wsThread[j]->start();
 	}
 	//Warten bis alle Threads geschlossen sind !!
 
-	while (work_sock_Threads[0]->get_aktiv() || work_sock_Threads[1]->get_aktiv() || work_sock_Threads[2]->get_aktiv());
+	while (wsThread[0]->get_aktiv() || wsThread[1]->get_aktiv() || wsThread[2]->get_aktiv());
 	cout << "Alle Clients abgemeldet!" << endl;
 
 	for (int j = 0; j < 3; j++)
-		delete work_sock_Threads[j];
+		delete wsThread[j];
 }
 
 CTelefonbuch* CTelefonbuchServer::getTelefonbuch()
