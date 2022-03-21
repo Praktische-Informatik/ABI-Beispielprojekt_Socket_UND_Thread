@@ -1,6 +1,5 @@
 Beispiel-Projekt zu Sockets und Threads
 
-Tipp:
 1) Server Debuggen<br>
 >> Haltepunkte z.B. im TelefonbuchServer.cpp, WorkSocketThread.cpp setzen <br>
 >> Erstes Programmfenster mit Strg+F5 starten; aber keine Auswahl mit 1 oder 2 treffen!<br>
