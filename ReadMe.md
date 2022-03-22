@@ -15,11 +15,12 @@ Beispiel-Projekt zu Sockets und Threads
 >> Viel Erfolg beim Debuggen!<br>
 
 Klassendiagramm Server Seite
-![Klassendiagramm SERVER Seite](https://user-images.githubusercontent.com/78038701/159348801-2479354e-037c-4907-9cdb-785c74c94c10.png)
+![Klassendiagramm SERVER Seite](https://user-images.githubusercontent.com/78038701/159466733-4a8201a1-faca-4dd9-9cfa-ce9a78af9afb.png)
 
 
 Klassendiagramm Client Seite
-![Klassendiagramm CLIENT Seite](https://user-images.githubusercontent.com/78038701/159292824-ebba7f4c-9682-4a25-9c37-8ad7441e0eb7.png)
+![Klassendiagramm CLIENT Seite](https://user-images.githubusercontent.com/78038701/159466771-02add6a1-ca16-46c5-9c9e-fc3533509b7a.png)
+
 
 Sequenzdiagramm Server-Client Seite (im Abi i.d.R. nur Server Seite)
-![Screenshot 2022-03-21 170014](https://user-images.githubusercontent.com/78038701/159301076-e6fae7a2-a0f6-4051-812b-721061ce9f26.png)
+![Musterlösung SQ-Diagramm Telefonbuch mit Threads](https://user-images.githubusercontent.com/78038701/159467201-b59d116d-d663-47f9-b428-ed2a5e97c67c.png)
