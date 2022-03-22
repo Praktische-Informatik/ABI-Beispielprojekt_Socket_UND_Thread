@@ -3,13 +3,13 @@
   <Class Name="CTelefonbuchServer">
     <Position X="1" Y="7.25" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAgECgAAEAAAACAAAAAAIAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAgECCAAEAAAACAAAAAAIAAAACAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TelefonbuchServer.h</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Field Name="work_sock_Threads" />
       <Field Name="serverSocket" />
       <Field Name="telefonbuch" />
+      <Field Name="wsThread" />
     </ShowAsAssociation>
   </Class>
   <Class Name="CThread">
