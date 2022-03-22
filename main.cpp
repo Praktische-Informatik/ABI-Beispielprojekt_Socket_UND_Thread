@@ -30,7 +30,7 @@ void server()
 {
 	CTelefonbuchServer tbServer;
 	cout << "------------SERVER--------------" << endl;
-	tbServer.startServer(SERVERPORT); // (1)  TelefonServer wird gestartet
+	tbServer.startServer(SERVERPORT); 
 }
 
 void client()
